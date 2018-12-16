@@ -4,9 +4,12 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Welcome S'world</title>
 </head>
 <body>
-<h2>JspBoard</h2>
+	<script type="text/javascript">
+		location.href = 'main.jsp'; // 서버 돌렸을때 main.jsp로 
+	
+	</script>
 </body>
 </html>
