@@ -7,6 +7,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width", initial-scale="1"> <!-- 컴,핸폰 어느것이든  해상도에 맞게 디자인 맞추는 용도  -->
 <link rel="stylesheet" href="css/bootstrap.css"> <!-- 부트스트랩 사용하겠다. -->
+<link rel="stylesheet" href="css/custom.css"> <!-- 커스텀 css참조 -->
 <title>Insert title here</title>
 </head>
 <body>
@@ -67,6 +68,41 @@
 			%>
 		</div>
 	</nav> 
+	<div class="container">
+		<div class="jumbotron">
+			<div class="container">
+				<h1>웹 사이트</h1>
+				<p> JSP로 게시판을 연습해 보았습니다.
+				<p><a class="btn btn-primary btn-pull" href="#" role="button">자세히 알아보기</a>		
+			</div>	
+		</div>
+	</div>
+	<div class="container">
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li data-targer="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-targer="#myCarousel" data-slide-to="1" ></li>
+				<li data-targer="#myCarousel" data-slide-to="2" ></li>
+			</ol>
+			<div class="carousel-inner">
+					<div class="item active">
+						<img src="imgs/1.jpg">
+					</div>
+					<div class="item">
+						<img src="imgs/2.jpg">
+					</div>
+					<div class="item">
+						<img src="imgs/3.jpg">
+					</div>
+			</div>
+			<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left"></span>
+			</a>
+			<a class="right carousel-control" href="#myCarousel" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right"></span>
+			</a>
+		</div>
+	</div>
 	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
 	<script src="js/bootstrap.min.js"></script> 
 </body>

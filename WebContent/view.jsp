@@ -9,6 +9,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width", initial-scale="1"> <!-- 컴,핸폰 어느것이든  해상도에 맞게 디자인 맞추는 용도  -->
 <link rel="stylesheet" href="css/bootstrap.css"> <!-- 부트스트랩 사용하겠다. -->
+<link rel="stylesheet" href="css/custom.css"> <!-- 커스텀 css참조 -->
 <title>Insert title here</title>
 </head>
 <body>
