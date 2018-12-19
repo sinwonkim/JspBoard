@@ -19,6 +19,10 @@
 	
 	%>
 
+
+
+<button id="night_day" type="button" value="night" onclick="myFunction()">배경색 변경</button>
+	
 	<nav class="navbar navbar-default"><!-- 네비게이션이란 하나의 전반적인 구성보여주는 용도 -->
 		<div class="navbar-header">
 			<button type="button" class="navbar-toggle collapsed" 
@@ -105,5 +109,20 @@
 	</div>
 	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
 	<script src="js/bootstrap.min.js"></script> 
+	
+	
 </body>
+	<script>
+	function myFunction() {
+	if(document.querySelector('#night_day').value === 'night'){
+		 document.body.style.backgroundColor = "black";
+		 document.body.style.color ='#2E2EFE';
+		 document.querySelector('#night_day').value = 'day'; 
+	}else if(document.querySelector('#night_day').value === 'day'){
+		 document.body.style.backgroundColor = "white";
+		 document.body.style.color ='black';
+		 document.querySelector('#night_day').value = 'night'; 
+		}
+	}
+</script>
 </html>
